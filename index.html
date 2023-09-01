@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talentera</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="nav-wrapper flex">
+          <div class="logo flex align-center">
+            <img src="./images/home.png" alt="home icon" />
+            <a href="#">Logo</a>
+          </div>
+          <!-- Add a burger menu icon -->
+          <div class="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+
+          <div class="nav-links flex">
+            <ul class="flex align-center">
+              <li><a href="#team" class="link">Team</a></li>
+              <li><a href="#work" class="link">Work</a></li>
+              <li><a href="#" class="link">Price</a></li>
+              <li><a href="#contact" class="link">Contact</a></li>
+              <li class="dropdown">
+                Dropdown
+                <i
+                  class="fa-sharp fa-solid fa-caret-down"
+                  style="color: #f5f5f5"
+                ></i>
+                <div class="dropdown-content">
+                  <ul>
+                    <li class="link">
+                      <a
+                        href="https://www.talentera.com/en/talentera-core"
+                        target="_blank"
+                        >Talentera core</a
+                      >
+                    </li>
+                    <li class="link">
+                      <a
+                        href="https://www.talentera.com/en/talentera-pro"
+                        target="_blank"
+                        >Talentera pro</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="search-icon-wrapper">
+              <a href="#"
+                ><i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #ffffff"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero flex">
+      <div class="flex hero-title">
+        <h1>Talentera</h1>
+      </div>
+    </div>
+
+    <section class="our-team flex align-center" id="team">
+      <h2>our team</h2>
+      <p>meet the team- our office rats:</p>
+      <div class="team-members flex">
+        <div class="team-member">
+          <img src="./images/member1.png" alt="team member picture" />
+          <h3>Islam AlZayatry</h3>
+          <p>Web designer</p>
+        </div>
+        <div class="team-member">
+          <img src="./images/member2.jpg" alt="team member picture" />
+          <h3>Tayseer Emam</h3>
+          <p>Support</p>
+        </div>
+        <div class="team-member">
+          <img src="./images/member3.jpg" alt="team member picture" />
+          <h3>Eman Subhi</h3>
+          <p>Boss man</p>
+        </div>
+        <div class="team-member">
+          <img src="./images/1625646837041.jpg" alt="team member picture" />
+          <h3>Reem Yakoub</h3>
+          <p>Fixer</p>
+        </div>
+      </div>
+    </section>
+    <section class="our-work" id="work">
+      <div class="work" id="work-text">
+        <h2>Our work</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="work">
+        <img src="./images/work1.png" alt="work photo" />
+        <div class="work-description">
+          <h3>Customer1</h3>
+          <h4>Trade</h4>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./images/work2.jpg" alt="" />
+        <div class="work-description">
+          <h3>Customer2</h3>
+          <h4>Trade</h4>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./images/work3.png" alt="" />
+        <div class="work-description">
+          <h3>Customer3</h3>
+          <h4>Trade</h4>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+          <p>Blablabla</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact flex" id="contact">
+      <div class="plus__icon flex">+</div>
+      <div class="contact-info flex">
+        <h2 class="contact_info_title">Contact Us</h2>
+        <h2>Address</h2>
+        <p>Swing by for a cup of coffee, or whatever.</p>
+        <p>
+          <i
+            class="fa-sharp fa-solid fa-location-dot"
+            style="color: #009688"
+          ></i
+          >Amman, Jordan
+        </p>
+        <p>
+          <i class="fa-solid fa-phone" style="color: #009688"> </i>962 79 000000
+        </p>
+        <p>
+          <i class="fa-regular fa-envelope" style="color: #009688"></i
+          >test@test.com
+        </p>
+      </div>
+      <form class="contact-form flex">
+        <label for="name">Name</label>
+        <input type="text" name="Name" />
+        <label for="email">Email</label>
+        <input type="email" />
+        <label for="text"> Message</label>
+        <textarea type="Message"></textarea>
+        <div class="form__checkbox flex">
+          <div class="checkbox flex">
+            <input
+              type="checkbox"
+              name="like"
+              id="like"
+              class="like__checkbox"
+            />
+            <label for="like" id="like_text">I Like it!</label>
+          </div>
+          <a href="#" class="send"> Send</a>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <img
+        src="https://www.analyticdesign.com/wp-content/uploads/2018/07/unnamed-574x675.gif"
+        alt=""
+        class="broken-image"
+      />
+      <div class="arrow">
+        <i
+          class="fa-solid fa-circle-chevron-up arrow-icon"
+          style="color: #ffffff"
+        ></i>
+      </div>
+      <h2 class="footer-title">follow us</h2>
+      <div class="footer-links flex">
+        <div class="footer__icon flex">
+          <a href="#"
+            ><i class="fa-brands fa-facebook-f" style="color: #ffffff"></i
+          ></a>
+        </div>
+        <div class="footer__icon flex">
+          <a href="#"
+            ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+          ></a>
+        </div>
+
+        <div class="footer__icon flex">
+          <a href="#"
+            ><i class="fa-brands fa-google-plus-g" style="color: #ffffff"></i
+          ></a>
+        </div>
+        <div class="footer__icon flex">
+          <a href="#"
+            ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+          ></a>
+        </div>
+        <div class="footer__icon flex">
+          <a href="#"
+            ><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
